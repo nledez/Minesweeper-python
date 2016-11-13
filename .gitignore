@@ -1,0 +1,63 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+virtualenv/
+venv/
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Client
+app/client/public*
+app/client/node_modules*
+
+#Output Manuel
+cli/output/*
+
+# Tableau stats
+cli/stats.csv
+
+#IDE / Projects
+.ropeproject
+
+# virtualenv
+api/vrack/flask/
+*,cover
+htmlcov/
+coverage.xml
+
+.requirements.txt-py*-freezed
+.requirements-*.txt-py*-freezed
+.cache
+.testmondata
+
+docs/_build/
